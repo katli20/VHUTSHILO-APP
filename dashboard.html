@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vhutshilo Thaidzo Dashboard</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="dashboard-header">
+  <img src="logo.jpg" alt="Vutshilo Green Logo" class="logo" />
+  <div class="header-text">
+    <h1>🌱 Welcome to Vutshilo Thaidzo</h1>
+    <p>Empowering township farmers, one tap at a time</p>
+  </div>
+  <button onclick="logout()" class="logout-btn">Logout</button>
+</header>
+
+
+
+  <main class="dashboard-grid">
+    <section class="dashboard-card" onclick="window.location.href='weather.html'">
+      <span class="badge"></span>
+      <img src="icons/weather.svg" alt="Weather Icon" />
+      <h2>Weather</h2>
+      <p>Check today's crop-friendly forecasts</p>
+    </section>
+    <section class="dashboard-card" onclick="window.location.href='chatbot.html'">
+      <span class="badge"></span>
+      <img src="icons/chatbot.svg" alt="Chatbot Icon" />
+      <h2>Chatbot</h2>
+      <p>Ask farming questions anytime</p>
+    </section>
+    <section class="dashboard-card" onclick="window.location.href='report.html'">
+      <span class="badge"></span>
+      <img src="icons/report.svg" alt="Report Fraud Icon" />
+      <h2>Report Fraud</h2>
+      <p>Protect your community with alerts</p>
+    </section>
+    <section class="dashboard-card" onclick="window.location.href='market.html'">
+      <span class="badge"></span>
+      <img src="icons/market.svg" alt="Market Icon" />
+      <h2>Direct Sales Market</h2>
+      <p>Sell and buy fresh produce directly</p>
+    </section>
+    <section class="dashboard-card" onclick="window.location.href='courses.html'">
+      <span class="badge"></span>
+      <img src="icons/courses.svg" alt="Courses Icon" />
+      <h2>Courses</h2>
+      <p>Learn best practices and new techniques</p>
+    </section>
+    <section class="dashboard-card" onclick="window.location.href='diary.html'">
+      <span class="badge"></span>
+      <img src="icons/diary.svg" alt="Crop Diary Icon" />
+      <h2>Crop Diary</h2>
+      <p>Track your field activities daily</p>
+    </section>
+    <section class="dashboard-card" onclick="window.location.href='news.html'">
+      <span class="badge"></span>
+      <img src="icons/news.svg" alt="Agri-News Icon" />
+      <h2>Agri-News</h2>
+      <p>Stay updated with local and global updates</p>
+    </section>
+  </main>
+
+  <footer class="dashboard-footer">
+    <p>© 2025 Vutshilo Green. Rooted in community.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+

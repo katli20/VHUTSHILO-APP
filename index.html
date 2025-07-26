@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>VHUTSHILO APP</title>
+  <link rel="stylesheet" href="style.css" />
+
+</head>
+<body>
+
+
+  <div class="logo-container">
+    <img src="logo.jpg" alt="Vhutshilo Thaidzo Logo" class="logo-image" />
+    <h1 class="logo-title">Vhutshilo Thaidzo</h1>
+    <p class="logo-slogan">Transforming <span class="highlight">Township</span> plots <span class="highlight"> into </span> thriving <span class="highlight"> farms.</span></p>
+  </div>
+
+  <form class="signup-form">
+   <label for="name">👤 <span>Full Name</span></label>
+<input type="text" id="name" name="name" placeholder="e.g. Lizzy Mokoena" required>
+
+<label for="location">📍 <span>Region/Township</span></label>
+<input type="text" id="location" name="location" placeholder="e.g. Lephalale" required>
+
+<label for="farmingType">🌱 <span>Type of Farming</span></label>
+<select id="farmingType" name="farmingType" required>
+  <option value="">Select an option</option>
+  <option value="vegetables">Vegetables</option>
+  <option value="livestock">Livestock</option>
+  <option value="both">Both</option>
+</select>
+
+<label for="phone">📞 <span>Phone Number</span></label>
+<input type="tel" id="phone" name="phone" placeholder="e.g. 072 345 6789">
+
+<label for="password">🔒 <span>Password</span></label>
+<input type="password" id="password" name="password" placeholder="Create a password" required>
+
+<div class="form-message" id="form-message"></div>
+    <button type="submit">Create Account</button>
+  </form>
+
+  <p class="login-link">
+    Already have an account? <a href="login.html">Login here</a>
+  </p>
+
+  <script src="script.js"></script>
+</body>
+</html>

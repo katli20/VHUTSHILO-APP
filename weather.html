@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather - Vhutshilo Thaidzo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="dashboard-header">
+    <img src="logo.jpg" alt="Vhutshilo Thaidzo Logo" class="logo" />
+    <div class="header-text">
+      <h1>🌤️ Weather Forecast</h1>
+      <p>Check today's crop-friendly weather conditions</p>
+    </div>
+    <button onclick="window.location.href='dashboard.html'" class="back-btn">← Back</button>
+  </header>
+
+  <main class="feature-content">
+    <div style="text-align:center; margin-bottom: 12px;">
+      <svg width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M12 2L13.09 8.26L20 9L13.09 9.74L12 16L10.91 9.74L4 9L10.91 8.26L12 2Z" fill="#FF9800"/>
+        <path d="M19 14C19 16.7614 16.7614 19 14 19C11.2386 19 9 16.7614 9 14C9 11.2386 11.2386 9 14 9C16.7614 9 19 11.2386 19 14Z" fill="#4CAF50" opacity="0.3"/>
+      </svg>
+    </div>
+    <div class="weather-card">
+      <h2>Today's Weather</h2>
+      <div class="weather-info">
+        <div class="weather-main">
+          <span class="weather-icon">🌤️</span>
+          <span class="temperature">24°C</span>
+          <span class="condition">Partly Cloudy</span>
+        </div>
+        <div class="weather-details">
+          <div class="detail">
+            <span class="label">Humidity:</span>
+            <span class="value">65%</span>
+          </div>
+          <div class="detail">
+            <span class="label">Wind:</span>
+            <span class="value">12 km/h</span>
+          </div>
+          <div class="detail">
+            <span class="label">Rain Chance:</span>
+            <span class="value">20%</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="forecast-card">
+      <h2>5-Day Forecast</h2>
+      <div class="forecast-grid">
+        <div class="forecast-day">
+          <span class="day">Mon</span>
+          <span class="weather-icon">☀️</span>
+          <span class="temp">26°C</span>
+        </div>
+        <div class="forecast-day">
+          <span class="day">Tue</span>
+          <span class="weather-icon">🌤️</span>
+          <span class="temp">24°C</span>
+        </div>
+        <div class="forecast-day">
+          <span class="day">Wed</span>
+          <span class="weather-icon">🌧️</span>
+          <span class="temp">22°C</span>
+        </div>
+        <div class="forecast-day">
+          <span class="day">Thu</span>
+          <span class="weather-icon">☀️</span>
+          <span class="temp">25°C</span>
+        </div>
+        <div class="forecast-day">
+          <span class="day">Fri</span>
+          <span class="weather-icon">🌤️</span>
+          <span class="temp">23°C</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="farming-tips">
+      <h2>🌱 Farming Tips</h2>
+      <div class="tip">
+        <p><strong>Today's Recommendation:</strong> Perfect weather for planting leafy greens. The moderate temperature and humidity are ideal for seed germination.</p>
+      </div>
+      <div class="tip">
+        <p><strong>Watering Schedule:</strong> Water your crops early morning or late evening to minimize evaporation.</p>
+      </div>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html> 
