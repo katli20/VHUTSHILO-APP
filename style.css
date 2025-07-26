@@ -1,8 +1,8 @@
 /* Enhanced Color Palette */
 :root {
-  --primary-green: #2E7D32;
+  --primary-green: #24b42d;
   --secondary-green: #4CAF50;
-  --accent-orange: #FF9800;
+  --accent-orange: #e9920f;
   --warm-yellow: #FFC107;
   --earth-brown: #8D6E63;
   --soft-cream: #FFF8E1;
@@ -19,7 +19,7 @@
 body {
   background: #f5f3e7;
   font-family: 'Segoe UI', Arial, sans-serif;
-  color: #594d36;
+  color: #0f3a16;
   margin: 0;
   padding: 0;
 }
@@ -35,13 +35,13 @@ body {
 
 .logo-title {
   font-size: 2.2rem;
-  color: #388e3c;
+  color: #28632b;
   margin: 0;
 }
 
 .logo-slogan {
   font-size: 1.1rem;
-  color: #7d7157;
+  color: #b8871f;
 }
 
 .logo-image {
